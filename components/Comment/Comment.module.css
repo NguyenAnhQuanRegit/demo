@@ -1,0 +1,51 @@
+.popup {
+    width: 60%;
+    background-color: white;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.btn_group {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    line-height: 2.5;
+    line-break: auto;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 25px;
+    color: white;
+}
+
+.btn_primary {
+    background-color: orangered;
+}
+
+.btn_default {
+    background-color: #BDBDBD;
+    color: #0f0f0f;
+}
+
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    ;
+}
+
+@media only screen and (max-width: 768px) {
+    .popup {
+        width: 165%;
+        padding: 15%;
+    }
+}
